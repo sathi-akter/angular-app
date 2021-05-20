@@ -1,0 +1,17 @@
+<h1>
+  {{title}}
+</h1>
+
+<p>
+  Crouse: {{sathi.course}}
+</p>
+  <hr>
+<p>
+  {{sathi.firstName}} {{sathi.lastName}} is {{sathi.age}} years old
+</p>
+<p *ngIf="sathi.address">
+  {{sathi.firstName}} resides in {{sathi.address}}
+</p>
+<p *ngIf="sathi.phoneNumber">
+  {{sathi.firstName}}'s phone number is {{sathi.phoneNumber}}
+</p>
